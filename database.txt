@@ -12,6 +12,6 @@ Cavalli SMALLINT - NOTNULL
 Cambio VARCHAR - NULL
 Alimentazione VARCHAR(20) - NOTNULL
 Numero proprietari TINYINT - NULL
-Data immatricolazione YEAR - NOTNULL
+Data immatricolazione DATE - NOTNULL
 Posti TINYINT - NULL
 Numero porte TINYINT - NULL
