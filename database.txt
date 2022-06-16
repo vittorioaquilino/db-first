@@ -1,0 +1,17 @@
+Modellare la struttura di una tabella per memorizzare tutti i dati riguardanti delle auto usate messe in vendita da un concessionario.
+Create un file txt, dove indicate il nome della tabella, le colonne con tipi di dato ed eventuali attributi.
+
+AUTO USATE 
+
+Id - INT - PRIMARY KEY - NOTNULL - AUTO-INCREMENT - UNIQUE
+Marca VARCHAR(40) - NOTNULL
+Modello VARCHAR(30) - NOTNULL
+Km percorsi INT - NOTNULL
+Cilindrata INT - NOTNULL
+Cavalli SMALLINT - NOTNULL
+Cambio VARCHAR - NULL
+Alimentazione VARCHAR(20) - NOTNULL
+Numero proprietari TINYINT - NULL
+Data immatricolazione YEAR - NOTNULL
+Posti TINYINT - NULL
+Numero porte TINYINT - NULL
